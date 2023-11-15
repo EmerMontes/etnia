@@ -1,0 +1,93 @@
+.card {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 1vh;
+  margin: 1vh;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 1vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  width: 25vh;
+  height: 38vh;
+  overflow: hidden; /* Añadido para ocultar el desbordamiento de la descripción */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.imagen {
+  max-height: 40vh;
+  z-index: 0; /* Coloca la imagen detrás del contenido */
+}
+
+.corazon {
+  max-width: 1vh;
+  max-height: 1vh;
+  position: absolute;
+  top: -1vh;
+  right: 3.6vh;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: inherit; /* Evita heredar colores del texto circundante */
+}
+
+.corazon:hover {
+  background: transparent; /* Evita que el hover cambie el color de fondo */
+}
+
+.descripcion {
+  margin: 0;
+  padding: 1vh;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.656), rgba(255, 255, 255, 0.5)); /* Gradiente transparente hacia semi-transparente */
+  position: absolute;
+  max-height: 20%;
+  width: 92.5%;
+  min-height: 20%;
+  z-index: 1;
+  bottom: 0;
+  border-bottom-left-radius: .5vh;
+  border-bottom-right-radius: .5vh;
+  backdrop-filter: blur(10px); /* Ajustado para un efecto de difuminado más pronunciado */
+ 
+}
+
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centra verticalmente */
+  height: 100%;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-top: -1.5rem;
+}
+
+.price {
+  color: rgb(0, 161, 0);
+  font-weight: bold;
+  font-size: smaller;
+  margin-top: 2vh;
+  margin-bottom: -0.3rem;
+}
+
+.discount {
+  color: rgba(255, 0, 0, 0.57);
+  font-weight: bold;
+  font-size: smaller;
+  margin: 0;
+}

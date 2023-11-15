@@ -1,0 +1,153 @@
+.Formedit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .formedit-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .formeditTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .formedit-precio-descuento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .formedit-group {
+    margin: 0 10px;
+    flex: 1;
+    text-align: left;
+  }
+  
+  .label-form {
+    font-weight: 600;
+  }
+  
+
+  .input1,
+  .input2,
+  .input3,
+  .input2T,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  
+  .input1,
+  .input2,
+  .input2T,
+  .input3 {
+    font-size: 16px;
+  }
+  
+
+  .input1 {
+    max-width: 300px;
+  }
+  
+  .input2,
+  .input2T {
+    max-width: 100px;
+  }
+  
+  .input3 {
+    max-width: 600px;
+  }
+  
+  .label-form-descripcion {
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .previewImage {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img {
+    max-width: 100px;
+    max-height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .errores {
+    color: red;
+    font-size: 14px;
+    visibility: hidden;
+    margin: 0;
+  }
+  
+  .globalTalla {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  .globalTalla label {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .buttonDiv {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background-color: #71ba11;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    max-width: 40%;
+  }
+  
+  
+  .errorsubmit {
+    color: red;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .textarea-descripcion {
+    height: 70px;
+  }

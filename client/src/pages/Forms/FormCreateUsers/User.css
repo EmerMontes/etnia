@@ -1,0 +1,139 @@
+.Formuser-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.formuser{
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+  flex-direction: column;
+  
+
+  }
+
+  .formusertitle{
+    background-color: #f4f4f4;
+    max-width: 1000px;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    margin-top: -200px;
+    }
+   
+ .formuser label{
+      font-size:small;
+      /*font-weight: bold;*/
+      font-family: 'Rubik', sans-serif;
+      
+    }
+
+  .formuser input {
+      width: 300px;
+      border-style:ridge;
+      flex: 1;
+      padding: 0.5rem;
+      font-size: 1rem;
+      height: 2rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      transition: border-color 0.3s;
+      margin-bottom: 30px;
+  }
+
+  
+
+  .warning{
+    border:solid red 1px;
+    border-radius: 0.2em;
+  }
+
+  .danger{
+    margin-top: -20px;
+    font-size: 12px;
+    color: red;
+
+  }
+
+  .formuser span {
+    font-size: 13px;
+    color: red;
+    margin-left: 0em;
+    margin-bottom: 2em;
+  
+
+  }
+  
+  .formuser p{
+  font-size: 12px;
+  margin-left: 0em;
+  max-width: 35vh;
+
+  }
+
+
+.userTitle{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.empleadoform{
+  background-color:  #f4f4f4;
+  max-width: 1000px;
+  padding: 0px 0px 20px 20px;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+.empleadoform label{
+  font-size:small;
+  /*font-weight: bold;*/
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.userbutton {
+  padding: 0.5em 1em;
+  margin-top: 2.5em;
+  border: none;
+  cursor: pointer;
+  background: #71A611;
+  border-radius:5px;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  width: 200px;
+  font-size:medium;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  padding: 5px 5px;
+}
+
+.userbutton:hover{
+  background-color: #207015;
+  box-shadow:  0px 0px 5px #000000;
+  transition: 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.formempleado-group {
+  margin: 0 10px;
+  flex: 1;
+  
+  /*text-align: left;*/
+}
+
+.formempleado-group input{
+  margin-left:-150px;
+  margin-top: -80px;
+}
+
+.formempleado-group label{
+  margin-left:20px;
+  margin-top: -22px;
+}
