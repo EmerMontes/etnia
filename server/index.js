@@ -1,13 +1,13 @@
 const axios = require("axios");
-const server = require("./server.js");
-const { conn } = require("./db.js");
+const server = require("./src/server.js");
+const { conn } = require("./src/db.js");
 const express = require("express");
 const { expressjwt: jwt } = require("express-jwt");
 const jwksRsa = require("jwks-rsa");
-const User = require("./models/User.js");
-const prendas = require("./controllers/savedInDB.js");
+const User = require("./src/models/User.js");
+const prendas = require("./src/controllers/savedInDB.js");
 const cloudinary = require("cloudinary").v2;
-const reviewsRouter = require("./routes/reviewsRouter.js");
+const reviewsRouter = require("./src/routes/reviewsRouter.js");
 const app = express();
 
 const bodyParser = require('body-parser');
