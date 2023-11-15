@@ -1,4 +1,4 @@
-const {prendas} = require('../../products/products.json');
+const {prendas} = require('../products/products.json');
 const {Products} = require('../db')
 
 module.exports = async(req,res) =>{
